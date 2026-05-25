@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cars Korea — авто из Кореи, Японии и Китая под ключ</title>
+  <meta name="description" content="Подбор, проверка, покупка и доставка автомобилей из Южной Кореи, Японии и Китая под ключ.[...]
+  <meta name="theme-color" content="#061426" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <style>
+    :root{--bg:#061426;--bg2:#081b30;--panel:rgba(255,255,255,.065);--panel2:rgba(255,255,255,.095);--line:rgba(134,211,255,.22);--text:#eef7ff;--muted:#a9bdd1;--blue:#62c8ff;--blue2:#a4e2ff;--whi[...]
+  </style>
+</head>
+<body>
+<header class="top"><div class="container nav"><a class="brand" href="#top" aria-label="Cars Korea"><span class="logo">CK</span><span><strong>Cars Korea</strong><span>Авто под ключ</spa[...]
+<main id="top">
+<section class="hero"><div class="container hero-grid"><div><div class="eyebrow">Корея · Япония · Китай</div><h1>Авто из Кореи, Японии и Китая под кл[...]
+<section class="section"><div class="container strip"><div><h2>Следите за свежими авто и полезными разборами Cars Korea</h2><p class="txt">Подпишите[...]
+<section class="section pain"><div class="container grid2"><div><h2>Заказать авто самому сложно и рискованно</h2></div><div class="card"><p>На первый в[...]
+<section class="section"><div class="container"><div class="section-head center"><h2>Что делает Cars Korea</h2><p class="txt">Мы не просто продаём автомобили. [...]
+<section class="section"><div class="container grid2"><div><h2>Почему выбирают Cars Korea</h2><p class="txt">Помогаем безопасно заказывать автомоби[...]
+<section class="section" id="cars"><div class="container"><div class="section-head"><h2>Популярные авто без цен</h2><p class="txt">Стоимость зависит от год[...]
+<section class="section"><div class="container grid2"><div class="card"><h3>Какие автомобили можно заказать</h3><p>Седаны, кроссоверы, минивэны,[...]
+<section class="section" id="process"><div class="container"><div class="section-head"><h2>Как проходит заказ</h2><p class="txt">Понятная схема от заявки до [...]
+<section class="section" id="calc"><div class="container form-wrap"><div><div class="eyebrow">Расчёт под бюджет</div><h2>Получите расчёт автомобиля</h2><p cl[...]
+<section class="section"><div class="container grid2"><div><h2>Для кого подойдёт заказ через Cars Korea</h2><p class="txt">Для тех, кто хочет понять, [...]
+<section class="section" id="faq"><div class="container"><div class="section-head center"><h2>FAQ</h2><p class="txt">Короткие ответы на частые вопросы.</p></div><detai[...]
+<section class="section"><div class="container strip"><div><h2>Хотите понять, какой автомобиль можно привезти под ваш бюджет?</h2><p class="txt"[...]
+</main>
+<footer class="footer"><div class="container footer-grid"><div><a class="brand" href="#top"><span class="logo">CK</span><span><strong>Cars Korea</strong><span>Автомобили из Кореи,[...]
+<div class="mobilebar"><a class="btn primary" href="https://wa.me/79510150505?text=Здравствуйте!%20Хочу%20рассчитать%20стоимость%20автомобиля%20из%20[...]
+<script>
+const cars=[
+{name:'Kia K5',desc:'Современный седан с выразительным дизайном и хорошей ликвидностью.',q:'Kia K5 sedan'},
+{name:'Hyundai Sonata',desc:'Комфортный седан для города и трассы с понятным обслуживанием.',q:'Hyundai Sonata sedan'},
+{name:'Kia Sorento',desc:'Практичный семейный кроссовер с просторным салоном.',q:'Kia Sorento SUV'},
+{name:'Hyundai Santa Fe',desc:'Кроссовер для семьи, города и дальних поездок.',q:'Hyundai Santa Fe SUV'},
+{name:'Kia Carnival',desc:'Большой минивэн для семьи, бизнеса и комфортных поездок.',q:'Kia Carnival minivan'},
+{name:'Hyundai Palisade',desc:'Крупный SUV с просторным салоном и статусной посадкой.',q:'Hyundai Palisade SUV'},
+{name:'BMW 5 Series',desc:'Бизнес-класс с динамикой, комфортом и премиальным ощущением.',q:'BMW 5 Series sedan'},
+{name:'Mercedes-Benz E-Class',desc:'Премиальный седан для тех, кто ценит статус и качество.',q:'Mercedes E Class sedan'},
+{name:'Toyota Camry',desc:'Надёжный седан с высокой популярностью и понятной эксплуатацией.',q:'Toyota Camry sedan'},
+{name:'Toyota Alphard',desc:'Премиальный минивэн для максимального комфорта пассажиров.',q:'Toyota Alphard minivan'},
+{name:'Honda Stepwgn',desc:'Практичный японский минивэн для семьи и ежедневных задач.',q:'Honda Stepwgn minivan'},
+{name:'Nissan Serena',desc:'Семейный минивэн с удобным салоном и хорошей практичностью.',q:'Nissan Serena minivan'},
+{name:'Chevrolet Trailblazer',desc:'Кроссовер для города, трассы и активного режима.',q:'Chevrolet Trailblazer SUV'},
+{name:'Changan Uni-K',desc:'Современный китайский кроссовер с ярким дизайном.',q:'Changan Uni-K SUV'},
+{name:'Zeekr 001',desc:'Электромобиль премиального уровня с технологичным оснащением.',q:'Zeekr 001 electric car'},
+{name:'Li Auto L7',desc:'Современный семейный автомобиль с высоким уровнем комфорта.',q:'Li Auto L7 SUV'}
+];
+const scroller=document.getElementById('carsScroller');
+cars.forEach((car,i)=>{const msg=`Здравствуйте! Интересует ${car.name}. Хочу узнать стоимость и варианты доставки.`;const img=`https://sou[...]
+document.getElementById('orderForm').addEventListener('submit',e=>{e.preventDefault();const msg=`Здравствуйте! Хочу рассчитать автомобиль.\n\nСтрана: ${co[...]
+</script>
+</body>
+</html>
